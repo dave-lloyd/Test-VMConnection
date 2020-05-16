@@ -1,5 +1,5 @@
 function Test-VMConnection {
-<#
+    <#
  .SYNOPSIS
 Test-VMConnection allows you to test basic connectivity (ICMP) or basic connectivity and a port check against a single VM or a list of VMs.
 
@@ -42,6 +42,10 @@ Supply a .csv file for testing against a number of VMs. The .csv needs at least 
  C:\PS> Test-VMConnection -IP 10.10.10.10 -Port 22
 
  This will test against IP 10.10.10.10 for ICMP and connectivity on port 22 (SSH)
+
+ .NOTES
+ Author          : Dave Lloyd
+ Version         : 0.1
 
 #>
 
